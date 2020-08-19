@@ -1,0 +1,17 @@
+    body{
+        font-family: "Nunito Sans", sans-serif;
+        background-image: linear-gradient(45deg, #00001a, #000080, #000033,#00001a);
+    }
+  .weather-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #202124;
+    max-width: 450px;
+    height: 500px;
+    margin: 80px auto;
+    padding: 20px;
+    position: relative;
+    z-index: 4;
+    border-radius: 10px 10px 0px 0px;
+  }
